@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenTestingDemoSuite" time="7.611" tests="3" failures="0" errors="0">
+   <testsuite name="DataDrivenTestingDemoSuite" tests="3" failures="0" errors="0" time="7.611" skipped="0" timestamp="06-03-2024T14:32:52" hostname="GPanulaya - ALGPanulaya1.Arcanys.com" id="Test Suites/DataDrivenTestingDemoSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GPanulaya\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\20240306_143244\\DataDrivenTestingDemoSuite\\20240306_143245"/>
+         <property name="logFiles" value="C:\\Users\\GPanulaya\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\20240306_143244\\DataDrivenTestingDemoSuite\\20240306_143245\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="GPanulaya - ALGPanulaya1.Arcanys.com"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTestDemo" time="4.242" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+         <system-out><![CDATA[06-03-2024T14:32:52 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo
+
+06-03-2024T14:32:53 - [TEST_STEP][PASSED] - println("...value of country code is : " + CountryCode): null
+
+06-03-2024T14:32:53 - [TEST_STEP][PASSED] - println("...value of capital is : " + Capital): null
+
+06-03-2024T14:32:53 - [TEST_STEP][PASSED] - println("...value of currency is : " + Currency1): null
+
+06-03-2024T14:32:53 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:32:55 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\0.har
+
+06-03-2024T14:32:56 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:32:56 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+06-03-2024T14:32:56 - [MESSAGE][PASSED] - Verify element text successfully
+
+06-03-2024T14:32:56 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:32:57 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\1.har
+
+06-03-2024T14:32:57 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully
+
+06-03-2024T14:32:57 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTestDemo" time="1.682" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+         <system-out><![CDATA[06-03-2024T14:32:57 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - println("...value of country code is : " + CountryCode): null
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - println("...value of capital is : " + Capital): null
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - println("...value of currency is : " + Currency1): null
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:32:57 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\2.har
+
+06-03-2024T14:32:57 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+06-03-2024T14:32:57 - [MESSAGE][PASSED] - Verify element text successfully
+
+06-03-2024T14:32:57 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:32:58 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\3.har
+
+06-03-2024T14:32:58 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:32:58 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully
+
+06-03-2024T14:32:58 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTestDemo" time="1.417" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+         <system-out><![CDATA[06-03-2024T14:32:58 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo
+
+06-03-2024T14:32:58 - [TEST_STEP][PASSED] - println("...value of country code is : " + CountryCode): null
+
+06-03-2024T14:32:58 - [TEST_STEP][PASSED] - println("...value of capital is : " + Capital): null
+
+06-03-2024T14:32:58 - [TEST_STEP][PASSED] - println("...value of currency is : " + Currency1): null
+
+06-03-2024T14:32:58 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:32:59 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\4.har
+
+06-03-2024T14:32:59 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:32:59 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+06-03-2024T14:32:59 - [MESSAGE][PASSED] - Verify element text successfully
+
+06-03-2024T14:32:59 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully
+
+06-03-2024T14:33:00 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_143244\DataDrivenTestingDemoSuite\20240306_143245\requests\main\5.har
+
+06-03-2024T14:33:00 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T14:33:00 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully
+
+06-03-2024T14:33:00 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2024T14:32:52 - [TEST_SUITE][PASSED] - DataDrivenTestingDemoSuite: Test Cases/DataDrivenTestDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

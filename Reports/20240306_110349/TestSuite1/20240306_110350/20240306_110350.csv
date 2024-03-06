@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,06-03-2024 11:03:59,06-03-2024 11:04:07,7.940s,PASSED
+,,,,,,,
+Test Cases/TestOne,,,,06-03-2024 11:03:59,06-03-2024 11:04:03,3.624s,PASSED
+"sendRequest(findTestObject(""CountryInfoSOAPService/GetCountryListByNames""))",,,,06-03-2024 11:04:00,06-03-2024 11:04:02,1.961s,PASSED
+"sendRequestAndVerify(findTestObject(""CountryInfoSOAPService/GetCountryListByNames""))",,,,06-03-2024 11:04:02,06-03-2024 11:04:03,1.411s,PASSED
+,,,,,,,
+Test Cases/TestTwo_APIChaining,,,,06-03-2024 11:04:03,06-03-2024 11:04:07,4.162s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCountryListByNames""))",,,,06-03-2024 11:04:03,06-03-2024 11:04:06,3.035s,PASSED
+xml1 = responseBodyContent,,,,06-03-2024 11:04:06,06-03-2024 11:04:06,0.109s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,,06-03-2024 11:04:06,06-03-2024 11:04:06,0.045s,PASSED
+countryCode = sISOCode.text(),,,,06-03-2024 11:04:06,06-03-2024 11:04:06,0.015s,PASSED
+countryCode = countryCode,,,,06-03-2024 11:04:06,06-03-2024 11:04:06,0.068s,PASSED
+"println("".. value for Global Variable is : "" + countryCode)",,,,06-03-2024 11:04:06,06-03-2024 11:04:06,0.006s,PASSED
+"sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital""))",,,,06-03-2024 11:04:06,06-03-2024 11:04:07,0.702s,PASSED

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="7.196" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="7.196" skipped="0" timestamp="06-03-2024T11:06:06" hostname="GPanulaya - ALGPanulaya1.Arcanys.com" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GPanulaya\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\20240306_110549\\TestSuite1\\20240306_110552"/>
+         <property name="logFiles" value="C:\\Users\\GPanulaya\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\20240306_110549\\TestSuite1\\20240306_110552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="GPanulaya - ALGPanulaya1.Arcanys.com"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+      </properties>
+      <testcase name="Test Cases/TestOne" time="4.161" classname="Test Cases/TestOne" status="PASSED">
+         <system-out><![CDATA[06-03-2024T11:06:06 - [TEST_CASE][PASSED] - Test Cases/TestOne: Test Cases/TestOne
+
+06-03-2024T11:06:07 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CountryInfoSOAPService/GetCountryListByNames")): Send request successfully
+
+06-03-2024T11:06:09 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_110549\TestSuite1\20240306_110552\requests\main\0.har
+
+06-03-2024T11:06:09 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T11:06:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("CountryInfoSOAPService/GetCountryListByNames")): Send request and verify the response successfully
+
+06-03-2024T11:06:10 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_110549\TestSuite1\20240306_110552\requests\main\1.har
+
+06-03-2024T11:06:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+06-03-2024T11:06:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+06-03-2024T11:06:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+06-03-2024T11:06:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+06-03-2024T11:06:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+06-03-2024T11:06:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+06-03-2024T11:06:10 - [MESSAGE][PASSED] - Verify response successfully
+
+06-03-2024T11:06:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+06-03-2024T11:06:10 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestTwo_APIChaining" time="2.75" classname="Test Cases/TestTwo_APIChaining" status="PASSED">
+         <system-out><![CDATA[06-03-2024T11:06:10 - [TEST_CASE][PASSED] - Test Cases/TestTwo_APIChaining: Test Cases/TestTwo_APIChaining
+
+06-03-2024T11:06:10 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCountryListByNames")): Send request successfully
+
+06-03-2024T11:06:11 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_110549\TestSuite1\20240306_110552\requests\main\2.har
+
+06-03-2024T11:06:11 - [MESSAGE][PASSED] - Send request successfully
+
+06-03-2024T11:06:11 - [TEST_STEP][PASSED] - xml1 = responseBodyContent: null
+
+06-03-2024T11:06:12 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml1): null
+
+06-03-2024T11:06:12 - [TEST_STEP][PASSED] - countryCode = sISOCode.text(): null
+
+06-03-2024T11:06:12 - [TEST_STEP][PASSED] - countryCode = countryCode: null
+
+06-03-2024T11:06:12 - [TEST_STEP][PASSED] - println(".. value for Global Variable is : " + countryCode): null
+
+06-03-2024T11:06:12 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CountryInfoSOAPService/GetCapital")): Send request successfully
+
+06-03-2024T11:06:13 - [MESSAGE][INFO] - HAR: C:\Users\GPanulaya\Katalon Studio\Sample SOAP API Testing Project\Reports\20240306_110549\TestSuite1\20240306_110552\requests\main\3.har
+
+06-03-2024T11:06:13 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2024T11:06:06 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/TestTwo_APIChaining]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

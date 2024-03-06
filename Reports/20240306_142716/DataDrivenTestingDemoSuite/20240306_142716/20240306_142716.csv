@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTestingDemoSuite,,,,06-03-2024 14:27:24,06-03-2024 14:27:31,7.436s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,06-03-2024 14:27:24,06-03-2024 14:27:29,4.459s,PASSED
+"println(""...value of country code is : "" + CountryCode)",,,,06-03-2024 14:27:25,06-03-2024 14:27:25,0.018s,PASSED
+"println(""...value of capital is : "" + Capital)",,,,06-03-2024 14:27:25,06-03-2024 14:27:25,0.007s,PASSED
+"println(""...value of currency is : "" + Currency1)",,,,06-03-2024 14:27:25,06-03-2024 14:27:25,0.012s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:25,06-03-2024 14:27:28,2.815s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,06-03-2024 14:27:28,06-03-2024 14:27:28,0.235s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:28,06-03-2024 14:27:29,0.541s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", Currency1)",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.056s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,06-03-2024 14:27:29,06-03-2024 14:27:30,1.352s,PASSED
+"println(""...value of country code is : "" + CountryCode)",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.002s,PASSED
+"println(""...value of capital is : "" + Capital)",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.002s,PASSED
+"println(""...value of currency is : "" + Currency1)",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.002s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.622s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,06-03-2024 14:27:29,06-03-2024 14:27:29,0.049s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:29,06-03-2024 14:27:30,0.611s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", Currency1)",,,,06-03-2024 14:27:30,06-03-2024 14:27:30,0.042s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,06-03-2024 14:27:30,06-03-2024 14:27:31,1.162s,PASSED
+"println(""...value of country code is : "" + CountryCode)",,,,06-03-2024 14:27:30,06-03-2024 14:27:30,0.000s,PASSED
+"println(""...value of capital is : "" + Capital)",,,,06-03-2024 14:27:30,06-03-2024 14:27:30,0.000s,PASSED
+"println(""...value of currency is : "" + Currency1)",,,,06-03-2024 14:27:30,06-03-2024 14:27:30,0.001s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:30,06-03-2024 14:27:31,0.523s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,06-03-2024 14:27:31,06-03-2024 14:27:31,0.055s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,,06-03-2024 14:27:31,06-03-2024 14:27:31,0.516s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", Currency1)",,,,06-03-2024 14:27:31,06-03-2024 14:27:31,0.053s,PASSED

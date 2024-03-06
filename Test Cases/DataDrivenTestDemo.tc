@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenTestDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc5cd62d-4517-4982-b056-212c5e128973</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edd75b30-5e93-49bb-8072-60025e06d9c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afe187ae-0b02-4879-9f3d-b2c28f57bf06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c674031-3071-443d-aa6d-6c64af8f53be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>edd75b30-5e93-49bb-8072-60025e06d9c2</id>
+      <masked>false</masked>
+      <name>CountryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Washington'</defaultValue>
+      <description></description>
+      <id>afe187ae-0b02-4879-9f3d-b2c28f57bf06</id>
+      <masked>false</masked>
+      <name>Capital</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dollars'</defaultValue>
+      <description></description>
+      <id>0c674031-3071-443d-aa6d-6c64af8f53be</id>
+      <masked>false</masked>
+      <name>Currency1</name>
+   </variable>
+</TestCaseEntity>
